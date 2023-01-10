@@ -7,7 +7,6 @@
 
 .navigation-panel .logo {
     height: auto;
-    fill: white;
 }
 
 /* Theming */
@@ -74,6 +73,20 @@ a.status-card.compact .status-card__description {
     color: #71767b;
 }
 
+/* hashtags */
+.hashtag.status-link {
+    background-color: #93AEFD36;
+    padding: 0px 5px;
+    border-style: dashed;
+    border-color: #93AEFD;
+    border-width: 0.5px;
+    border-radius: 5px;
+}
+
+.hashtag.status-link:hover {
+    background-color: #cdd2f54f;
+}
+
 /* custom logos for articles */ 
 .status-card__content:has(a.status-card__title[href*="https://www.youtube.com"]) .status-card__host {
     background-image: url(https://innosflew.github.io/Logos/youtube.svg);
@@ -91,11 +104,11 @@ a[href*="https://sussexbylines.co.uk"] .status-card__host {
     height: 33px;
 }
 a[href*="https://westenglandbylines.co.uk"] .status-card__host {
-    background-image: url(https://innosflew.github.io/Logos/WestEnglandBylines.svg);
+    background-image: url(https://innosflew.github.io/Logos/WestEnglandBylinesNew.png);
     background-repeat: no-repeat;
     background-size: contain;
     font-size: 0 !important;
-    height: 45px;
+    height: 33px;
 }
 a[href*="https://bylinesnetwork.co.uk"] .status-card__host {
     background-image: url(https://i.imgur.com/MqCz98y.png);
@@ -453,6 +466,35 @@ a[href*="https://apnews.com"] .status-card__host::after {
 }
 
 /* a[href*=""] .display-name .display-name__html::after, */
+a[href*="MarkRuffalo@mastodon.social"] .display-name .display-name__html::after,
+a[href*="notesfrompoland@mas.to"] .display-name .display-name__html::after,
+a[href*="pcgamesn@mastodon.world"] .display-name .display-name__html::after,
+a[href*="freedomofpress@newsie.social"] .display-name .display-name__html::after,
+a[href*="base@openbiblio.social"] .display-name .display-name__html::after,
+a[href*="atrupar@journa.host"] .display-name .display-name__html::after,
+a[href*="mozilla@mastodon.social"] .display-name .display-name__html::after,
+a[href*="Teri_Kanefield@law-and-politics.online"] .display-name .display-name__html::after,
+a[href*="helmholtzklima@wisskomm.social"] .display-name .display-name__html::after,
+a[href*="minimaxir@sigmoid.social"] .display-name .display-name__html::after,
+a[href*="helmholtz@helmholtz.social"] .display-name .display-name__html::after,
+a[href*="parkermolloy@masto.ai"] .display-name .display-name__html::after,
+a[href*="airlineflyer@mastodon.social"] .display-name .display-name__html::after,
+a[href*="killyourfm@layer8.space"] .display-name .display-name__html::after,
+a[href*="EP_GreensEFA@social.network.europa.eu"] .display-name .display-name__html::after,
+a[href*="SLagodinsky@gruene.social"] .display-name .display-name__html::after,
+a[href*="anna_cavazzini@gruene.social"] .display-name .display-name__html::after,
+a[href*="JuttaPaulus@mastodon.online"] .display-name .display-name__html::after,
+a[href*="alexandrageese@bonn.social"] .display-name .display-name__html::after,
+a[href*="elementary@mastodon.social"] .display-name .display-name__html::after,
+a[href*="gardiner_bryant@mastodon.online"] .display-name .display-name__html::after,
+a[href*="theintercept@journa.host"] .display-name .display-name__html::after,
+a[href*="gbhnews@mastodon.social"] .display-name .display-name__html::after,
+a[href*="archlinux@fosstodon.org"] .display-name .display-name__html::after,
+a[href*="fedora@fosstodon.org"] .display-name .display-name__html::after,
+a[href*="eirliani@home.social"] .display-name .display-name__html::after,
+a[href*="claesdevreese@mastodon.social"] .display-name .display-name__html::after,
+a[href*="Comey@thecooltable.wtf"] .display-name .display-name__html::after,
+a[href*="RitchieTorres@universeodon.com"] .display-name .display-name__html::after,
 a[href*="CrooksandLiars@journa.host"] .display-name .display-name__html::after,
 a[href*="msfreepress@journa.host"] .display-name .display-name__html::after,
 a[href*="disinfodocket@toot.community"] .display-name .display-name__html::after,
@@ -1164,6 +1206,35 @@ a[href*="gretathunberg@mastodon.nu"] .display-name .display-name__html::after {
 }
 
 /* .account__header__bar:has(img[alt=""]) .account__header__tabs__name h1 span::after, */
+.account__header__bar:has(img[alt="MarkRuffalo@mastodon.social"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="notesfrompoland@mas.to"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="pcgamesn@mastodon.world"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="freedomofpress@newsie.social"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="base@openbiblio.social"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="atrupar@journa.host"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="mozilla@mastodon.social"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="Teri_Kanefield@law-and-politics.online"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="helmholtzklima@wisskomm.social"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="minimaxir@sigmoid.social"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="helmholtz@helmholtz.social"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="parkermolloy@masto.ai"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="airlineflyer@mastodon.social"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="killyourfm@layer8.space"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="EP_GreensEFA@social.network.europa.eu"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="SLagodinsky@gruene.social"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="anna_cavazzini@gruene.social"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="JuttaPaulus@mastodon.online"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="alexandrageese@bonn.social"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="elementary@mastodon.social"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="gardiner_bryant@mastodon.online"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="theintercept@journa.host"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="gbhnews@mastodon.social"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="archlinux@fosstodon.org"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="fedora@fosstodon.org"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="eirliani@home.social"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="claesdevreese@mastodon.social"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="Comey@thecooltable.wtf"]) .account__header__tabs__name h1 span::after,
+.account__header__bar:has(img[alt="RitchieTorres@universeodon.com"]) .account__header__tabs__name h1 span::after,
 .account__header__bar:has(img[alt="CrooksandLiars@journa.host"]) .account__header__tabs__name h1 span::after,
 .account__header__bar:has(img[alt="msfreepress@journa.host"]) .account__header__tabs__name h1 span::after,
 .account__header__bar:has(img[alt="disinfodocket@toot.community"]) .account__header__tabs__name h1 span::after,
